@@ -1,5 +1,7 @@
 # Broker Calculator
 
+## Original Notes
+
 Planning to create a small broker calculator that will allow you to see the most relevant broker for you in terms of cost.
 
 ---------------------------------------
@@ -43,3 +45,7 @@ Fee {
 }
 
 ----------------------------------------
+
+## The plan
+
+Hoping to write it all in JS so it can run on peoples browsers. With the ability to be put into an iframe so people can embed it on their website. Hopefully in that case they can add the data in return for embedding it.
