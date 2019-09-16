@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <script src="./brokers.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <div>
+    <form action="#" onsubmit="DoSubmit()">
+      <div>
+      <label>Do you use the account for ISA:</label></br>
+        <div>
+          <label>Current Balance:</label>
+          <input type="number"></br>
+        </div>
+        <div>
+          <label>What does your average trading look like:</label></br>
+          <div>
+          Amount: <input type="number">
+          </div>
+          <div>
+          Trades: <input type="number">
+          <select>
+            <option value="month">Month</option>
+            <option value="quarter">Quarter</option>
+            <option value="year">Year</option>
+          </select>
+          </div>
+         </div>
+      </div>
+
+      <div>
+      <label>Do you use the account for SIPP:</label></br>
+        <div>
+          <label>Current Balance:</label>
+          <input type="number"></br>
+        </div>
+        <div>
+          <label>What does your average trading look like:</label></br>
+          <div>
+          Amount: <input type="number">
+          </div>
+          <div>
+          Trades: <input type="number">
+          <select>
+            <option value="month">Month</option>
+            <option value="quarter">Quarter</option>
+            <option value="year">Year</option>
+          </select>
+          </div>
+         </div>
+      </div>
+
+      <div>
+      <label>Do you use the account for Trading:</label></br>
+        <div>
+          <label>Current Balance:</label>
+          <input type="number"></br>
+        </div>
+        <div>
+          <label>What does your average trading look like:</label></br>
+          <div>
+          Amount: <input type="number">
+          </div>
+          <div>
+          Trades: <input type="number">
+          <select>
+            <option value="month">Month</option>
+            <option value="quarter">Quarter</option>
+            <option value="year">Year</option>
+          </select>
+          </div>
+         </div>
+      </div>
+      <div>
+      <label>Rate your level of wanted self management:</label></br>
+        <input type="range" min="1" max="3" value="2" step="1" class="slider" id="selfmanagement">
+        <input type="checkbox" name="selfmanagmentna">
+      </div>
+
+      <div>
+      <label>How polished should the website be:</label></br>
+        <input type="range" min="1" max="3" value="2" step="1" class="slider" id="websitepolish">
+        <input type="checkbox" name="websitepolishna">
+      </div>
+
+      <div>
+        <label>How do you wish to access:</label></br>
+        <label for="app">Web</label>
+          <input type="radio" name="supported-platforms" id="app" value="app"><br>
+        <label for="website">App</label>
+          <input type="radio" name="supported-platforms" id="website" value="website"><br>
+      </div>
+
+      <div>
+        <input type="Submit" />
+      </div>
+    </form>
+    </div>
+
+
+    <div>
+      <h3>Results</h3>
+      <div>
+        Logo |
+        Test brokers |
+        Estimated cost per year |
+        Notes |
+        Link
+      </div>
+    </div>
+
+    <div>
+      <a href="https://niallbunting.com">Created by Niall Bunting</a>
+    </div>
+  </body>
+</html>
