@@ -1,4 +1,4 @@
-var brokers = [
+var BROKERS = [
   {
     "name": "test",
     "servicenotes": "This is a test broker",
